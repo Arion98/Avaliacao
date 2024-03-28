@@ -12,6 +12,7 @@ public class Main {
         String especie = leia.nextLine();
         System.out.println("digite a idade do animal:");
         int idade = leia.nextInt();
-        pet.mostrarDadosDoPet(nome,especie, idade);
+        pet.mostrarDadosDoPet(nome,especie, idade );
     }
+
 }
